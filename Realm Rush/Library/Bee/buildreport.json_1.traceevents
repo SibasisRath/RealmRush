@@ -1,0 +1,522 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1686924137805524, "dur": 4957485, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686924137806105, "dur": 10918, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686924137817027, "dur": 65331, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686924137882361, "dur": 1481272, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686924139363636, "dur": 3388799, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686924142752438, "dur": 10570, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686924142763689, "dur": 39, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1686924138977760, "dur": 351585, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686924138980378, "dur": 105036, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686924139288671, "dur": 11698, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686924139300375, "dur": 28954, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686924139302386, "dur": 25902, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686924139340345, "dur": 4067, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686924139338260, "dur": 6215, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686924142763849, "dur": 345, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1686924139454206, "dur":1648, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686924139455884, "dur":140, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1686924139456089, "dur":51, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1686924139456141, "dur":850, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1686924139457045, "dur":1233, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686924139458278, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686924142730887, "dur":170, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686924142731057, "dur":102, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686924142731159, "dur":99, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686924142731259, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686924142731283, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686924142731290, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686924142731304, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686924142731308, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686924142731323, "dur":72, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686924142731395, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686924142731409, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686924142731414, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686924142731429, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686924142731434, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686924142731446, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686924142731451, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686924142731465, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686924142731494, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686924142731541, "dur":2246, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1686924139457854, "dur":494, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686924139458354, "dur":8558, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686924139466932, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686924139467008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686924139468483, "dur":635, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686924139469130, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686924139469200, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686924139469586, "dur":5020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686924139474610, "dur":48180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1686924139522798, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686924139522824, "dur":1481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1686924139524420, "dur":70656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686924139595087, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686924139600384, "dur":2275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686924139602692, "dur":113578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686924139716282, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686924139716302, "dur":1660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686924139717995, "dur":62140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686924139780147, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686924139783494, "dur":1833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686924139785360, "dur":63235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686924139848605, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686924139848623, "dur":1739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686924139850391, "dur":463561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686924140313963, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686924140313981, "dur":1873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686924140315886, "dur":121833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686924140437729, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686924140437748, "dur":11691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686924140449477, "dur":89963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686924140539449, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686924140539466, "dur":4275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686924140543775, "dur":89270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686924140633056, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686924140633075, "dur":2205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686924140635310, "dur":84323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686924140719643, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686924140719670, "dur":1435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686924140721130, "dur":87142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686924140808282, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686924140808302, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686924140809930, "dur":244104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686924141054045, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686924141054063, "dur":1795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686924141055889, "dur":6708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686924141062608, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686924141062637, "dur":1440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686924141064108, "dur":89614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686924141153732, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686924141153794, "dur":2405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686924141156234, "dur":294327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686924141450572, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686924141450635, "dur":1687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686924141452352, "dur":317178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686924141769541, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686924141769561, "dur":1673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686924141771265, "dur":405438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686924142176714, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686924142176732, "dur":2394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686924142179158, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1686924142179193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686924142179242, "dur":1774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1686924142181050, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1686924142181092, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686924142181112, "dur":2995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1686924142184136, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1686924142184211, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686924142184227, "dur":2652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1686924142186914, "dur":2423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1686924142189343, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686924142189355, "dur":3289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1686924142192673, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1686924142192710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686924142192726, "dur":2564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1686924142195316, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1686924142195350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686924142195363, "dur":1987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1686924142197379, "dur":533474, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686924139457906, "dur":525, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686924139458432, "dur":8512, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686924139466945, "dur":529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1686924139467488, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686924139469626, "dur":15332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1686924139485081, "dur":29914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1686924139515005, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686924139515025, "dur":2390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1686924139517528, "dur":82413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush.exe" }}
+,{ "pid":12345, "tid":2, "ts":1686924139599951, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686924139599966, "dur":2052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush.exe" }}
+,{ "pid":12345, "tid":2, "ts":1686924139602050, "dur":74174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686924139676234, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686924139676255, "dur":4336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686924139680622, "dur":88972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686924139769606, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686924139769626, "dur":2474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686924139772133, "dur":61006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686924139833150, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686924139833169, "dur":1593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686924139834796, "dur":401463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686924140236340, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686924140236360, "dur":2458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686924140238852, "dur":60382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686924140299245, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686924140299266, "dur":2163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686924140301498, "dur":63812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686924140365324, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686924140365342, "dur":2035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686924140367419, "dur":85699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686924140453130, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686924140453150, "dur":12051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686924140465238, "dur":71728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686924140536977, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686924140536996, "dur":1634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686924140538661, "dur":344917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686924140883589, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686924140883608, "dur":5548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686924140889190, "dur":1526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686924140890726, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686924140890744, "dur":5562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686924140896370, "dur":184002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686924141080382, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686924141080401, "dur":1462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686924141081891, "dur":134665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686924141216567, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686924141216596, "dur":1559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686924141218195, "dur":251699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686924141469905, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686924141469923, "dur":1468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686924141471423, "dur":95572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686924141567005, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686924141567024, "dur":1686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686924141568743, "dur":596994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686924142165750, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686924142165771, "dur":8827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686924142174628, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1686924142174885, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686924142175576, "dur":27505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1686924142203113, "dur":527773, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686924139458555, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686924139458556, "dur":8390, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686924139466946, "dur":33033, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1686924139499988, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686924139500008, "dur":1937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1686924139502081, "dur":368509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686924139870600, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686924139870615, "dur":21727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686924139892466, "dur":73014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686924139965492, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686924139965510, "dur":1434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686924139966978, "dur":426648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686924140393637, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686924140393703, "dur":7941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686924140401676, "dur":67079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686924140468765, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686924140468783, "dur":1505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686924140470321, "dur":96564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686924140566896, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686924140566915, "dur":1499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686924140568445, "dur":92002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686924140660458, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686924140660477, "dur":4862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686924140665373, "dur":483016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686924141148401, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686924141148542, "dur":2529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686924141151101, "dur":197960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686924141349073, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686924141349091, "dur":1537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686924141350660, "dur":395123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686924141745793, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686924141745852, "dur":6321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686924141752204, "dur":413632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686924142165844, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686924142165870, "dur":3158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686924142169061, "dur":74328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686924142243400, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686924142243453, "dur":3055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686924142246542, "dur":484318, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686924139458197, "dur":299, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686924139458496, "dur":8465, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686924139466962, "dur":25782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1686924139492753, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686924139492827, "dur":2182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1686924139495155, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1686924139495424, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686924139495443, "dur":2414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1686924139497985, "dur":6011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686924139504007, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686924139504402, "dur":2119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686924139506655, "dur":10542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1686924139517206, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686924139517220, "dur":2503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1686924139519856, "dur":573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1686924139520439, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686924139520830, "dur":15727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1686924139536685, "dur":139288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686924139675984, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686924139676002, "dur":2249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686924139678287, "dur":417331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686924140095629, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686924140095648, "dur":3322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686924140099002, "dur":121324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686924140220338, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686924140220356, "dur":1767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686924140222155, "dur":145840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686924140368004, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686924140368021, "dur":1627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686924140369678, "dur":76882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686924140446570, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686924140446589, "dur":1774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686924140448406, "dur":58421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686924140506837, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686924140506892, "dur":1525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686924140508447, "dur":104481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686924140612940, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686924140612959, "dur":1604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686924140614594, "dur":129518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686924140744122, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686924140745019, "dur":13037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686924140758086, "dur":233819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686924140991915, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686924140991934, "dur":2189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686924140994464, "dur":110498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686924141104976, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686924141104994, "dur":2055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686924141107086, "dur":1510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686924141108611, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686924141108628, "dur":1582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686924141110243, "dur":317660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686924141427914, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686924141427934, "dur":1637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686924141429601, "dur":108534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686924141538146, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686924141538165, "dur":1568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686924141539763, "dur":641833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686924142181609, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686924142181734, "dur":3255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686924142185018, "dur":579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1686924142185607, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686924142185622, "dur":1930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1686924142187579, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1686924142187610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686924142187624, "dur":1629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1686924142189288, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1686924142189334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686924142189347, "dur":2965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1686924142192348, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1686924142192386, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686924142192405, "dur":2003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1686924142194442, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1686924142194475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686924142194489, "dur":1997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1686924142196519, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1686924142196707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686924142196720, "dur":1452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1686924142198200, "dur":532647, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686924139457992, "dur":467, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686924139458459, "dur":8503, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686924139466963, "dur":659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1686924139467628, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686924139469131, "dur":15793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1686924139485046, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1686924139485302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686924139485342, "dur":3511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1686924139488968, "dur":32779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1686924139521756, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686924139521776, "dur":1631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1686924139523533, "dur":226234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686924139749778, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686924139749797, "dur":2603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686924139752437, "dur":193040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686924139945488, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686924139945553, "dur":1863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686924139947451, "dur":129279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686924140076741, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686924140076760, "dur":2103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686924140078894, "dur":167023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686924140245928, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686924140245947, "dur":1669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686924140247649, "dur":61724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686924140309381, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686924140309437, "dur":8028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686924140317493, "dur":71476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686924140388980, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686924140389007, "dur":8286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686924140397326, "dur":334708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686924140732044, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686924140732062, "dur":2027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686924140734119, "dur":187112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686924140921243, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686924140922243, "dur":14141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686924140936414, "dur":137465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686924141073890, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686924141073908, "dur":4345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686924141078309, "dur":115618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686924141194796, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686924141194816, "dur":9489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686924141204338, "dur":771004, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686924141975353, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686924141975372, "dur":2173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686924141977589, "dur":114049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686924142091648, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686924142091666, "dur":1587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686924142093284, "dur":632691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686924142725983, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686924142725996, "dur":4741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686924142730780, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1686924142730789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686924139458128, "dur":348, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686924139458477, "dur":8438, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686924139466932, "dur":104214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1686924139571156, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686924139571859, "dur":1614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1686924139573607, "dur":151318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686924139724936, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686924139725002, "dur":1407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686924139726443, "dur":66149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686924139792603, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686924139792665, "dur":1525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686924139794220, "dur":126012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686924139920243, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686924139920261, "dur":1702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686924139921999, "dur":117313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686924140039324, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686924140039341, "dur":1443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686924140040812, "dur":72812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686924140113635, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686924140113674, "dur":5452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686924140119155, "dur":62986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686924140182152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686924140182170, "dur":2429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686924140184627, "dur":87845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686924140272485, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686924140272503, "dur":1719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686924140274263, "dur":199067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686924140473341, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686924140473360, "dur":1543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686924140474934, "dur":105471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686924140580415, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686924140580434, "dur":5081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686924140585550, "dur":156028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686924140741589, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686924140741608, "dur":7025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686924140748664, "dur":303630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686924141052304, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686924141052323, "dur":2549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686924141054902, "dur":59567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686924141114480, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686924141114499, "dur":34002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686924141148535, "dur":731623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686924141880169, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686924141880188, "dur":4692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686924141884909, "dur":336328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686924142221248, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686924142221267, "dur":3112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686924142224420, "dur":506430, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686924139458416, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686924139458416, "dur":8542, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686924139466959, "dur":512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1686924139467479, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686924139469055, "dur":15963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1686924139485147, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1686924139485436, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686924139486264, "dur":2365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1686924139488863, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1686924139489150, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686924139489284, "dur":2246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1686924139491664, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1686924139491992, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686924139492046, "dur":3496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1686924139495650, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1686924139495922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686924139495935, "dur":2886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1686924139498951, "dur":68525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924139567487, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686924139567557, "dur":15850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924139583535, "dur":162653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924139746199, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686924139746218, "dur":2658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924139748937, "dur":66284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924139815233, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686924139815252, "dur":1461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924139816746, "dur":193785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924140010542, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686924140010562, "dur":1751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924140012347, "dur":147634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924140160003, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686924140160021, "dur":5518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924140165571, "dur":85760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924140251343, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686924140251361, "dur":1531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924140252922, "dur":124336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924140377269, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686924140377288, "dur":9435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924140386755, "dur":117769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924140504535, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686924140504554, "dur":4739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924140509333, "dur":64886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924140574230, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686924140574249, "dur":1468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924140575745, "dur":73377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924140649132, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686924140649150, "dur":1807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924140650988, "dur":134667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924140785667, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686924140785685, "dur":3850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924140789567, "dur":233209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924141022788, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686924141022807, "dur":3003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924141025841, "dur":1576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924141027453, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686924141027572, "dur":3448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924141031055, "dur":173557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924141204621, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686924141204639, "dur":1298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924141205962, "dur":483130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924141689103, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686924141689123, "dur":11119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924141700274, "dur":166769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924141867054, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686924141867073, "dur":2129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924141869256, "dur":396618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924142265883, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686924142265926, "dur":1578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686924142267532, "dur":463322, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686924139458532, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686924139458533, "dur":8430, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686924139466964, "dur":568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1686924139467541, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686924139471055, "dur":13943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1686924139485127, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1686924139485437, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686924139485456, "dur":3160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1686924139488753, "dur":33432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1686924139522233, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686924139522252, "dur":4961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1686924139527328, "dur":87177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686924139614516, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686924139614577, "dur":1439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686924139616049, "dur":71401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686924139687462, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686924139687482, "dur":2506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686924139690015, "dur":83761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686924139773787, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686924139773805, "dur":6211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686924139780052, "dur":321321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686924140101383, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686924140101446, "dur":2339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686924140103822, "dur":124848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686924140228681, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686924140228699, "dur":1689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686924140230426, "dur":78602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686924140309039, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686924140309058, "dur":1706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686924140310796, "dur":156168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686924140466975, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686924140466993, "dur":2266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686924140469288, "dur":217231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686924140686530, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686924140686549, "dur":1804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686924140688384, "dur":120569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686924140808971, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686924140808989, "dur":26254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686924140835277, "dur":738403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686924141573691, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686924141573709, "dur":1768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686924141575507, "dur":522854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686924142098371, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686924142098398, "dur":4191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686924142102625, "dur":524887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686924142627522, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686924142627535, "dur":1943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/my_unity_games/Build Games/RealmRushFirstDraft/Realm Rush_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686924142629508, "dur":101353, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686924142735995, "dur":4591, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1686924142764292, "dur": 1332, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686924142763666, "dur": 2003, "ph": "X", "name": "Write chrome-trace events", "args": {} },
